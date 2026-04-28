@@ -428,9 +428,8 @@ win.on('load',function() {
 });
 //===Nivoslider Activer===
 $('#hero-slider').nivoSlider({
-    prevText: '<span>P</span><i class="zmdi zmdi-long-arrow-left"></i>',
-    nextText: '<span>N</span><i class="zmdi zmdi-long-arrow-right"></i>',
-    controlNav: false,
+    directionNav: false, /* This completely disables the next/prev arrows */
+    controlNav: false,   /* This keeps the little bottom dots disabled */
     effect: 'boxRainGrow',
     pauseTime: 5000,
 });
